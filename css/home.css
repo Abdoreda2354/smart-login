@@ -1,0 +1,44 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: #24353F;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color: #17A2B8;
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 50%;
+    padding: 40px 0;
+    text-align: center;
+}
+nav{
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);    
+}
+
+@media (max-width: 991px) { 
+    #logout{
+        margin-top: 20px;
+        width: 100%!important;
+    }
+    
+    
+   }
+@media (max-width: 768px) { 
+    h1{
+        
+        width: 80%!important;
+        font-size: 30px;
+    }
+
+    
+   }

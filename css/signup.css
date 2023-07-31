@@ -1,0 +1,49 @@
+
+*{
+    text-decoration: none !important;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+body{
+    background-color: #24353F;
+}
+
+.login h1{
+    font-size: 40px;
+    color: #17A2B8;
+}
+
+.login {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder {
+    color: #b6b6a7b9 !important;
+  }
+
+  input:focus{
+    box-shadow: none !important;
+  }
+  a:hover{
+    text-decoration: underline !important;
+
+  }
+
+  
+  @media (max-width: 933px) { 
+    .login{
+        width: 70%!important;
+    }
+    
+   }
+  @media (max-width: 500px) { 
+    .login{
+        width: 85%!important;
+    }
+    
+   }
+
