@@ -74,7 +74,7 @@ openEye.addEventListener('click' , function(){
     closeEye.classList.remove("d-none")
 
 });
-var regexEmail = /([a-z]{2,15}|[A-Z]{2,15})@(gmail|yahoo|google)\.com/
+var regexEmail = /([a-z]{2,15}|[A-Z]{2,15})[0-9]{0,5}?@(gmail|yahoo|google)\.com/
 var regexPassword = /^(?=.*[a-z])(?=.*[0-9])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z0-9\d@$!%*?&#]{8,}$/
 
 
