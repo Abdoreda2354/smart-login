@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
@@ -17,7 +18,15 @@
                 <h1 class="text-center mb-4">Smart Login System</h1>
                 <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
                 <input id="signupEmail" class="form-control my-3" placeholder="Enter your Email" type="email">
-                <input id="signupPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                <div class="input-container">
+                    <input id="signupPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <span class="icon " id="closeEye">
+                        <i class="fa-solid fa-eye-slash "></i>
+                    </span>
+                    <span class="icon d-none" id="openEye">
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
                 <p class="text-center text-success fs-6 d-none" id="SuccessMess" >Success.</p>
                 <p class="text-center text-danger fs-6 d-none" id="errorMess1">All inputs is required.</p>
                 <p class="text-center text-danger fs-6 d-none" id="errorMess2">Email or name already exists.</p>

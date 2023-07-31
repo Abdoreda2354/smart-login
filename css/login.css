@@ -33,6 +33,23 @@ input::placeholder {
     text-decoration: underline !important;
 
   }
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container .icon {
+    color: #ffffffaf;
+    position: absolute;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    background-image: url('path/to/your/icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+  }
 
   @media (max-width: 933px) { 
     .login{
