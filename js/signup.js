@@ -22,7 +22,7 @@ function signUp() {
         successMess.classList.add('d-none')
         errorMess2.classList.add('d-none')
     }
-    else if (usersList.some(e => e.Email == user.Email && e.name == user.name)) {
+    else if (usersList.some(e => e.Email == user.Email || e.name == user.name)) {
 
         successMess.classList.add('d-none')
         errorMess1.classList.add('d-none')
